@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.app-body{
+    background-color: #fff;
+    border: 3px dashed blueviolet;
+    width: 600px;
+    height: 500px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 50px;
+}
+
+.app-body.active{
+    border: 3px solid blueviolet;
+}
+
+.icon{
+    font-size: 100px;
+    color: blueviolet;
+}
+
+.app-body h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.or{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 10px 0;
+}
+
+.app-body button{
+    background-color: #fff;
+    color: blueviolet;
+    border: none;
+    outline: none;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+    font-size: 22px;
+    margin: 0;
+}
+
+.app-body img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 50px;
+}
